@@ -2,7 +2,7 @@
 
 ## About Me
 
-I am a B.Tech graduate in Electrical and Electronics Engineering (2025 batch) from Model Engineering College, passionate about VLSI design and digital logic. I am currently undergoing RTL Design and Verification training at Maven Silicon, where I am strengthening my expertise in Verilog and digital design fundamentals, while starting to build skills in SystemVerilog, UVM, C programming, and Linux.
+I am a B.Tech graduate in Electrical and Electronics Engineering (2025 batch) from Model Engineering College, passionate about VLSI design and digital logic.I have **not held any prior job or paid internship**, making me fully eligible for this opportunity. I am currently undergoing RTL Design and Verification training at Maven Silicon, where I am strengthening my expertise in Verilog and digital design fundamentals, while starting to build skills in SystemVerilog, UVM, C programming, and Linux.
 
 ## Why I Am a Good Fit
 
