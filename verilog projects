@@ -23,3 +23,64 @@
     end
     end
 endmodule
+
+**Testbench for modecounter**
+module tb( );
+reg [3:0]data;
+reg clk,load,rst,mode;
+wire [3:0]count;
+
+modecounter dut(clk,data,load,mode,rst,count);
+
+initial
+begin
+clk=1'b0;
+forever #5 clk=~clk;
+end
+
+ initial 
+ begin
+    rst = 1'b1;
+    load = 1'b0;
+    data = 4'b0000;
+  end
+  
+task r();
+begin
+@(negedge clk);
+rst=1'b1;
+@(negedge clk);
+rst=1'b0;
+end
+endtask
+
+task d;
+input [3:0]in;
+input i;
+begin
+@(negedge clk);
+data=in;
+load=1'b1;
+mode=i;
+@(negedge clk);
+load=1'b0;
+@(negedge clk);
+end
+endtask
+
+initial
+begin
+r();
+#5
+ d(4'b0010,1'b1);
+#80
+ d(4'b0110,1'b0);
+#80
+ d(4'b0100,1'b1);
+end
+initial
+begin
+if (clk==1)
+$display("values are clk=%b,reset=%b,load=%b,mode=%b,data=%b,count=%b",clk,rst,load,mode,data,count);
+end
+endmodule
