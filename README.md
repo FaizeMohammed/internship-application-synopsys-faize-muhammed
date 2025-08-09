@@ -24,8 +24,7 @@ I am a B.Tech graduate in Electrical and Electronics Engineering (2025 batch) fr
 
   * 4-bit Synchronous Counter with enable & reset
   * Shift Register (parallel load & shift)
-  * 8-bit ALU (arithmetic & logic operations)
-  * Simple FSM (e.g., traffic light)
+  * 8-bit ALU (arithmetic & logic operations)  
 
 * **C Programming**:
 
