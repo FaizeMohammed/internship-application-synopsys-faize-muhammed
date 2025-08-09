@@ -27,11 +27,6 @@ I am a B.Tech graduate in Electrical and Electronics Engineering (2025 batch) fr
   * 8-bit ALU (arithmetic & logic operations)
   * Lidar preprocessing for ADAS application  
 
-* **C Programming**:
-
-  * Basic addition program
-  * String reversal program
-
 * **Training**:
 
   * RTL Design and Verification course at Maven Silicon (ongoing)
