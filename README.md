@@ -23,7 +23,7 @@ I am a B.Tech graduate in Electrical and Electronics Engineering (2025 batch) fr
 * **Verilog Projects**:
 
   * 4-bit Synchronous Counter with enable & reset
-  *16X8 Synchronous dual port Ram
+  * 16X8 Synchronous dual port Ram
   * 8-bit ALU (arithmetic & logic operations)
   * Lidar preprocessing for ADAS application  
 
