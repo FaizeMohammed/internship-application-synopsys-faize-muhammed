@@ -24,7 +24,8 @@ I am a B.Tech graduate in Electrical and Electronics Engineering (2025 batch) fr
 
   * 4-bit Synchronous Counter with enable & reset
   * Shift Register (serial load & shift)
-  * 8-bit ALU (arithmetic & logic operations)  
+  * 8-bit ALU (arithmetic & logic operations)
+  * Lidar preprocessing for ADAS application  
 
 * **C Programming**:
 
