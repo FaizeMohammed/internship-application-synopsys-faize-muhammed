@@ -1,0 +1,25 @@
+**Verilog Projects**
+1] *4bit synchronous loadable mode counter*
+ module modecounter(
+    input clk,
+    input [3:0]data,
+    input load,
+    input mode,
+    input rst,
+    output reg [3:0]count
+    );
+    always@(posedge clk)
+    begin
+    if(rst)
+    count<=4'b0000;
+    else if(load)
+    count<=data;
+    else 
+    begin
+    case(mode)
+    1'b1:count<=count+1'b1;
+    1'b0:count<=count-1'b1;
+    endcase
+    end
+    end
+endmodule
